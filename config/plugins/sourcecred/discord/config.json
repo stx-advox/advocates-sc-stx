@@ -1,6 +1,22 @@
 {
   "guildId": "792908935774076938",
+  "roleWeightConfig": {
+    "defaultWeight": 0,
+    "weights": {
+      "838942966692839435": 1
+    }
+  },
   "reactionWeights": {
-    "👍": 1
-  }
+    "sourcecred:626763367893303303": 3,
+    "👍": 2,
+    "👎": 0
+  },
+  "channelWeightConfig": {
+    "defaultWeight": 1,
+    "weights": {
+      "838920332894666752": 15,
+      "838921642838196256": 12
+    }
+  },
+  "propsChannels": ["838920332894666752"]
 }
