@@ -1,5 +1,5 @@
 {
-  "immediatePerWeek": 0,
+  "immediatePerWeek": 1000,
   "balancedPerWeek": 0,
   "recentPerWeek": 0,
   "recentWeeklyDecayRate": 0.12,
