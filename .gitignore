@@ -4,3 +4,4 @@ output/
 cache/
 
 .env
+.DS_STORE
