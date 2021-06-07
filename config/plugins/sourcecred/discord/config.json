@@ -8,7 +8,9 @@
     }
   },
   "reactionWeights": {
-    "👍": 1,
+    "1️⃣": 1,
+    "2️⃣": 2,
+    "3️⃣": 3,
     "👎": 0
   },
   "channelWeightConfig": {
