@@ -1,14 +1,14 @@
 [
-    {
-        "autoActivateOnIdentityCreation": true,
-        "autoInjectStartingPeriodWeight": 0.05,
-        "id": "KY2UBW6MBY6eJAVF5Me8oQ",
-        "name": "SourceCred",
-        "periods": [
-            {
-                "startTime": "2021-05-16T01:32:46.411Z",
-                "weight": 0.05
-            }
-        ]
-    }
+  {
+    "autoActivateOnIdentityCreation": true,
+    "autoInjectStartingPeriodWeight": 0.05,
+    "id": "KY2UBW6MBY6eJAVF5Me8oQ",
+    "name": "SourceCred",
+    "periods": [
+      {
+        "startTime": "2021-05-16T01:32:46.411Z",
+        "weight": 0.05
+      }
+    ]
+  }
 ]
