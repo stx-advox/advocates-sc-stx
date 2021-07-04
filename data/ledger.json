@@ -95,3 +95,4 @@
 {"action":{"identityId":"KY2UBW6MBY6eJAVF5Me8oQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1625389263780,"uuid":"WMjxG64GJkE0TVr6Z5s7sw","version":"1"}
 {"action":{"identityId":"RTnXPYbVwilEQeUdf4k4vg","newName":"friedger","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625389305312,"uuid":"lL1BEBxPrzH4895natvXdw","version":"1"}
 {"action":{"identityId":"QzoLYawiLjMuY4zZNtv9kw","newName":"Louise","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625389348932,"uuid":"ZeCvKkLAUVPU8pt8Pvw5aA","version":"1"}
+{"action":{"identityId":"VQebrLVmI9sajjzjW2YxmQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1625389977043,"uuid":"JbYJ5Zphy96Hm6kP1PNG7w","version":"1"}
