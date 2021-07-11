@@ -139,3 +139,17 @@
 {"action":{"identityId":"LOKGJDP7CjR7nyY7skgtrA","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1625861890053,"uuid":"4cYhMCXgKavhpTmPb4NLsA","version":"1"}
 {"action":{"identityId":"AvxX6JKmdFwtRijFyOZHeQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1625861891029,"uuid":"MetlNSgqowD8ojxEKwVYZA","version":"1"}
 {"action":{"identityId":"YGEMBI0dCkq7hXMDRbQzYQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1625861893761,"uuid":"mf5C5Q6l4xmq7eEqY7bUNw","version":"1"}
+{"action":{"identityId":"6OsgNXoEHREPmn80p5vOaw","newName":"harold-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961296511,"uuid":"V2oSXVop2qvrp0YzB3VmEA","version":"1"}
+{"action":{"identityId":"RTnXPYbVwilEQeUdf4k4vg","newName":"friedger-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961305213,"uuid":"nEDbXvClaXGcxcJ75JrByQ","version":"1"}
+{"action":{"identityId":"Q6cPCXByb43EC3tzn1LKyA","newName":"juliet-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961324140,"uuid":"cJEfWKZJBUexylxX7nHvjQ","version":"1"}
+{"action":{"identityId":"bPJZhrHyqAG10g7CG5MtWA","newName":"harini-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961365032,"uuid":"fEZ0K0fV830Zg5pqF733iQ","version":"1"}
+{"action":{"identityId":"gAUA7A8xJE4dV1bw5hMosw","newName":"whoabuddy-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961404091,"uuid":"3jFnLK5LNXdRD41MPv6PrA","version":"1"}
+{"action":{"identityId":"VQebrLVmI9sajjzjW2YxmQ","newName":"dan-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961445516,"uuid":"PhmW8LKBzQ1kkaoVUEsbhw","version":"1"}
+{"action":{"identityId":"vOoLABpwv9xjpAl9SkUzDg","newName":"mirlo-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961466431,"uuid":"d8kqlfO3qzMpP9GQ9AV2Zg","version":"1"}
+{"action":{"identityId":"srVvwuW21fMxTXQRcrsEzQ","newName":"algorithm-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961474759,"uuid":"f7e5qr9cqGZVkbj88B7GyA","version":"1"}
+{"action":{"identityId":"lVI8mOYBagqvsnZWbTblGg","newName":"Shankar-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961508500,"uuid":"EVG6cPfwwoOeabkxZ3cokA","version":"1"}
+{"action":{"identityId":"lVI8mOYBagqvsnZWbTblGg","newName":"shankar-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961515866,"uuid":"77IM8674AZIRtLU2Q2uNQQ","version":"1"}
+{"action":{"identityId":"LyAYzObJXvAqIycWzqAPSg","newName":"unclemantis-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961535197,"uuid":"ClCJswbf9Dr7rZTPYGgqJw","version":"1"}
+{"action":{"identityId":"srVvwuW21fMxTXQRcrsEzQ","newName":"godfreddonkor-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961615686,"uuid":"w3JjNUZTMG40KaWjzbSGbA","version":"1"}
+{"action":{"identityId":"p386M84ZM5PphnB1Aozz4w","newName":"peters-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961865318,"uuid":"3otvZGs6DpJyq22FVs3tOw","version":"1"}
+{"action":{"identityId":"asoj1VudZJxF0NI3DCQX4w","newName":"nothing-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961957261,"uuid":"DP3zQP6nzg3a1we4GHVsjA","version":"1"}
