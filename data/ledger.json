@@ -153,3 +153,4 @@
 {"action":{"identityId":"srVvwuW21fMxTXQRcrsEzQ","newName":"godfreddonkor-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961615686,"uuid":"w3JjNUZTMG40KaWjzbSGbA","version":"1"}
 {"action":{"identityId":"p386M84ZM5PphnB1Aozz4w","newName":"peters-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961865318,"uuid":"3otvZGs6DpJyq22FVs3tOw","version":"1"}
 {"action":{"identityId":"asoj1VudZJxF0NI3DCQX4w","newName":"nothing-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625961957261,"uuid":"DP3zQP6nzg3a1we4GHVsjA","version":"1"}
+{"action":{"identityId":"tjxvMZSDdGCOycW3T3uGLA","newName":"huz-btc","type":"RENAME_IDENTITY"},"ledgerTimestamp":1625963044648,"uuid":"e0FwGrFdbEnELfQgcNRr5A","version":"1"}
