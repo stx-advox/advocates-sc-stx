@@ -1,6 +1,13 @@
 [
     {
         "autoActivateOnIdentityCreation": true,
+        "id": "ymd8xn3ZA3CmoAm0DCEmvQ",
+        "name": "Treasury",
+        "periods": [
+        ]
+    },
+    {
+        "autoActivateOnIdentityCreation": true,
         "autoInjectStartingPeriodWeight": 0.05,
         "id": "KY2UBW6MBY6eJAVF5Me8oQ",
         "name": "SourceCred",
