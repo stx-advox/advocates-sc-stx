@@ -10,9 +10,7 @@
     },
     "guildId": "792908935774076938",
     "includeNsfwChannels": false,
-    "propsChannels": [
-      "838920332894666752"
-    ],
+    "propsChannels": ["838920332894666752"],
     "reactionWeightConfig": {
       "applyAveraging": false,
       "defaultWeight": 1,
@@ -20,7 +18,9 @@
         "1️⃣": 1,
         "2️⃣": 2,
         "3️⃣": 3,
-        "👎": 0
+        "🧸": 2,
+        "🐺": 2,
+        "🐢": 2
       }
     },
     "roleWeightConfig": {
@@ -29,6 +29,36 @@
         "829805387955437568": 1,
         "837408795814133777": 0,
         "838942966692839435": 1
+      }
+    }
+  },
+  {
+    "channelWeightConfig": {
+      "defaultWeight": 0,
+      "weights": {
+        "872124843225653278": 12,
+        "872124900431769620": 15
+      }
+    },
+    "guildId": "621759717756370964",
+    "includeNsfwChannels": false,
+    "propsChannels": ["872124900431769620"],
+    "reactionWeightConfig": {
+      "applyAveraging": false,
+      "defaultWeight": 1,
+      "weights": {
+        "1️⃣": 1,
+        "2️⃣": 2,
+        "3️⃣": 3,
+        "🧸": 2,
+        "🐺": 2,
+        "🐢": 2
+      }
+    },
+    "roleWeightConfig": {
+      "defaultWeight": 0,
+      "weights": {
+        "872124401129246822": 1
       }
     }
   }
