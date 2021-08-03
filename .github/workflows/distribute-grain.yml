@@ -26,6 +26,7 @@ jobs:
         env:
           SOURCECRED_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
+          NODE_OPTIONS: "--max-old-space-size=8192"
 
       - name: Distribute Grain 💸
         run: yarn grain > grain_output.txt
