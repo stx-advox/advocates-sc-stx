@@ -29,8 +29,12 @@ jobs:
           NODE_OPTIONS: "--max-old-space-size=8192"
 
       - name: Distribute Grain 💸
-        run: yarn grain > grain_output.txt
-
+        env:
+          ATTRIBUTIONS_RECIPIENT: ${{ secrets.ATTRIBUTIONS_RECIPIENT }}
+          ATTRIBUTIONS: ${{ secrets.ATTRIBUTIONS }}
+        run: |
+          yarn grain > grain_output.txt
+          node post-process.js
       - name: Set environment variables
         id: pr_details
         run: |
