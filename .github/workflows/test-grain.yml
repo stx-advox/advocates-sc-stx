@@ -9,6 +9,7 @@ on:
       # allows us to test this workflow, or manually generate distributions
       # PRSs created from grain-trigger-* branches are targeted
       # on their immediate base branches, as opposed to master
+      - master
       - "grain-trigger-*"
 
 jobs:
