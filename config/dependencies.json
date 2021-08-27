@@ -3,8 +3,7 @@
         "autoActivateOnIdentityCreation": true,
         "id": "ymd8xn3ZA3CmoAm0DCEmvQ",
         "name": "Treasury",
-        "periods": [
-        ]
+        "periods": []
     },
     {
         "autoActivateOnIdentityCreation": true,
@@ -15,6 +14,28 @@
             {
                 "startTime": "2021-05-16T01:32:46.411Z",
                 "weight": 0.05
+            }
+        ]
+    },
+    {
+        "autoInjectStartingPeriodWeight": 0.01,
+        "id": "tjxvMZSDdGCOycW3T3uGLA",
+        "name": "huz-btc",
+        "periods": [
+            {
+                "startTime": "2021-08-25T01:32:46.411Z",
+                "weight": 0.01
+            }
+        ]
+    },
+    {
+        "autoInjectStartingPeriodWeight": 0.01,
+        "id": "RTnXPYbVwilEQeUdf4k4vg",
+        "name": "friedger-btc",
+        "periods": [
+            {
+                "startTime": "2021-08-25T01:32:46.411Z",
+                "weight": 0.01
             }
         ]
     }
