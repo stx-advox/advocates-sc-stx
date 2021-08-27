@@ -23,7 +23,7 @@
         "name": "huz-btc",
         "periods": [
             {
-                "startTime": "2021-08-01T01:32:46.411Z",
+                "startTime": "2021-08-25T01:32:46.411Z",
                 "weight": 0.01
             }
         ]
@@ -34,7 +34,7 @@
         "name": "friedger-btc",
         "periods": [
             {
-                "startTime": "2021-08-01T01:32:46.411Z",
+                "startTime": "2021-08-25T01:32:46.411Z",
                 "weight": 0.01
             }
         ]
