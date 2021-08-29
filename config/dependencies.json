@@ -3,7 +3,8 @@
         "autoActivateOnIdentityCreation": true,
         "id": "ymd8xn3ZA3CmoAm0DCEmvQ",
         "name": "Treasury",
-        "periods": []
+        "periods": [
+        ]
     },
     {
         "autoActivateOnIdentityCreation": true,
