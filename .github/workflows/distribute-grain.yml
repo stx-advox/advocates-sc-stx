@@ -19,6 +19,8 @@ jobs:
 
       - name: Install Packages 🔧
         run: |
+          nvm install 16
+          nvm use 16
           yarn --frozen-lockfile
 
       - name: Load Data and Compute Cred 🧮
