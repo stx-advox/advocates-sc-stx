@@ -19,11 +19,14 @@ jobs:
       - name: Cache Data # Cache SourceCred Data, invalidating if any of the config changes or the SC version is updated
         uses: actions/cache@v2.1.6
         with:
-          path: '**/cache'
+          path: "**/cache"
           key: SC-${{ runner.os }}-${{ hashFiles('**/config.json', '**/sourcecred.json', '**/yarn.lock') }}
 
       - name: Install Packages 🔧
-        run: yarn --frozen-lockfile
+        run: |
+          nvm install 16
+          nvm use 16
+          yarn --frozen-lockfile
 
       - name: Load Data and Compute Cred 🧮
         run: yarn sourcecred go
