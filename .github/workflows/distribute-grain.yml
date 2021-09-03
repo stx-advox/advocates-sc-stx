@@ -35,6 +35,8 @@ jobs:
         run: |
           yarn grain > grain_output.txt
           node post-process.js
+          node send-dist.js
+          rm distribution.csv
       - name: Set environment variables
         id: pr_details
         run: |
