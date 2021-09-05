@@ -35,6 +35,7 @@ jobs:
         env:
           ATTRIBUTIONS_RECIPIENT: ${{ secrets.ATTRIBUTIONS_RECIPIENT }}
           ATTRIBUTIONS: ${{ secrets.ATTRIBUTIONS }}
+          SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
         run: |
           yarn grain > grain_output.txt
           node post-process.js
