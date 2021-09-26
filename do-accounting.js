@@ -1,25 +1,7 @@
 const process = require("process");
-const { sourcecred } = require("sourcecred");
-const { Ledger } = sourcecred.ledger.ledger;
-const fs = require("fs");
-const path = require("path");
-
-const createLedgerDiskStorage = (ledgerFilePath) => ({
-  read: async () => {
-    return Ledger.parse(fs.readFileSync(ledgerFilePath).toString());
-  },
-  write: async (ledger) => {
-    fs.writeFileSync(ledgerFilePath, ledger.serialize());
-  },
-});
+const { ledgerManager } = require("./util");
 
 const [, , txUrl] = process.argv;
-const { LedgerManager } = sourcecred.ledger.manager;
-
-const diskStorage = createLedgerDiskStorage(path.resolve("data/ledger.json"));
-const ledgerManager = new LedgerManager({
-  storage: diskStorage,
-});
 
 const treasuryId = "ymd8xn3ZA3CmoAm0DCEmvQ";
 
