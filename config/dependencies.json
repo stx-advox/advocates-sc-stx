@@ -21,7 +21,7 @@
     {
         "autoInjectStartingPeriodWeight": 0.01,
         "id": "tjxvMZSDdGCOycW3T3uGLA",
-        "name": "huz-btc",
+        "name": "hz-btc",
         "periods": [
             {
                 "startTime": "2021-08-25T01:32:46.411Z",
