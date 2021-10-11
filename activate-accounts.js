@@ -8,6 +8,7 @@ const client = new Client({
 
 client.on("ready", async () => {
   const stacks = await client.guilds.fetch("621759717756370964");
+  const advocatesRoleId = "872124401129246822";
   const priorityChannels = ["872124843225653278", "872124900431769620"];
   await ledgerManager.reloadLedger();
   for (let id of priorityChannels) {
@@ -25,13 +26,16 @@ client.on("ready", async () => {
 
     const advocates = Object.values(advocatesMap);
     for (let advocate of advocates) {
-      const discordAccount = ledgerManager.ledger.accountByAddress(
-        `N\u0000sourcecred\u0000discord\u0000MEMBER\u0000user\u0000${advocate.id}\u0000`
-      );
-      if (discordAccount) {
-        console.log("activating", advocate.username, "...");
-        const discordIdentityId = discordAccount.identity.id;
-        ledgerManager.ledger.activate(discordIdentityId);
+      const member = await stacks.members.fetch(advocate);
+      if (member.roles.cache.get(advocatesRoleId)) {
+        const discordAccount = ledgerManager.ledger.accountByAddress(
+          `N\u0000sourcecred\u0000discord\u0000MEMBER\u0000user\u0000${advocate.id}\u0000`
+        );
+        if (discordAccount) {
+          console.log("activating", advocate.username, "...");
+          const discordIdentityId = discordAccount.identity.id;
+          ledgerManager.ledger.activate(discordIdentityId);
+        }
       }
     }
   }
