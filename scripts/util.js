@@ -1,6 +1,4 @@
-const {
-  sourcecred,
-} = require("../sourcecred/packages/sourcecred/dist/server/api");
+const { sourcecred } = require("sourcecred");
 const fs = require("fs");
 const path = require("path");
 const { Ledger } = sourcecred.ledger.ledger;

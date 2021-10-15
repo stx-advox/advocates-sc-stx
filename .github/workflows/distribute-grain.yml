@@ -38,8 +38,8 @@ jobs:
           SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
         run: |
           yarn grain > grain_output.txt
-          node post-process.js
-          node send-dist.js
+          node scripts/post-process.js
+          node scripts/send-dist.js
           rm distribution.csv
       - name: Set environment variables
         id: pr_details
