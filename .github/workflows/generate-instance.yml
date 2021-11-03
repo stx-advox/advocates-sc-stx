@@ -37,6 +37,8 @@ jobs:
           NODE_OPTIONS: "--max-old-space-size=8192"
 
       - name: Generate Frontend 🏗
+        env:
+          NODE_OPTIONS: "--max-old-space-size=8192"
         run: |
           yarn sourcecred site
           yarn sourcecred analysis
