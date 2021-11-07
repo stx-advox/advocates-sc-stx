@@ -10,19 +10,17 @@ const client = new Client({
 client.on("ready", async () => {
   const channel = client.channels.cache.get("872214986452242462");
   if (channel) {
-    const jokeOfTheWeek = await fetch("https://api.chucknorris.io/jokes/random")
-      .then((data) => {
-        return data.json();
-      })
-      .then((json) => {
-        return json.value;
-      });
+    // const jokeOfTheWeek = await fetch("https://api.chucknorris.io/jokes/random")
+    //   .then((data) => {
+    //     return data.json();
+    //   })
+    //   .then((json) => {
+    //     return json.value;
+    //   });
 
     await channel.send({
       content: `Distribution ready yo <@392435662420443167>!
-**Chuck Norris joke of the week**:
-
-${jokeOfTheWeek}
+**Chuck Norris joke of the week**: has been retired lol
 `,
       files: [
         {
