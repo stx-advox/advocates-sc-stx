@@ -13,7 +13,7 @@
     "discord-api-types": "^0.24.0",
     "discord.js": "^13.3.1",
     "dotenv": "^10.0.0",
-    "sourcecred": "^0.10.0"
+    "sourcecred": "^0.10.1"
   },
   "scripts": {
     "clean": "rimraf cache site",
