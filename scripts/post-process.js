@@ -50,9 +50,9 @@ const main = async () => {
         isEqual(currentDistDate, reworkItem.until))
     ) {
       const grainAmount = Number(dist.amount);
-      const increment = grainAmount * reworkItem.percentage;
-      increase += increment;
-      const remaining = grainAmount - increment;
+      // const increment = grainAmount * reworkItem.percentage;
+      // increase += increment;
+      const remaining = grainAmount;
       if (remaining) {
         return [dist.name, remaining];
       }

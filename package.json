@@ -20,7 +20,8 @@
     "clean-all": "yarn clean && rimraf output",
     "load": "dotenv sourcecred load",
     "start": "dotenv -- sourcecred go --no-load && sourcecred serve",
-    "grain": "sourcecred grain"
+    "grain": "sourcecred grain",
+    "compile": "dotenv -- sourcecred go --no-load"
   },
   "devDependencies": {
     "dotenv-cli": "^4.1.1",

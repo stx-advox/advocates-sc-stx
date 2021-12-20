@@ -3,11 +3,11 @@ const fs = require("fs");
 const path = require("path");
 const { Ledger } = sourcecred.ledger.ledger;
 const createLedgerDiskStorage = (ledgerFilePath) => ({
-  read: async () => {
-    return Ledger.parse(fs.readFileSync(ledgerFilePath).toString());
+  get: async () => {
+    return fs.readFileSync(ledgerFilePath);
   },
-  write: async (ledger) => {
-    fs.writeFileSync(ledgerFilePath, ledger.serialize());
+  set: async (path, data) => {
+    fs.writeFileSync(path, data);
   },
 });
 const { LedgerManager } = sourcecred.ledger.manager;
