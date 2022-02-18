@@ -1,25 +1,22 @@
 require("dotenv").config();
 const path = require("path");
-const fetch = require("cross-fetch");
 
 const { Client, Intents } = require("discord.js");
+const { ledgerManager } = require("./util");
 const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
 });
 
 client.on("ready", async () => {
+  await ledgerManager.reloadLedger();
+  const distributions = Array.from(ledgerManager.ledger.distributions());
+  const lastDistribution = distributions[distributions.length - 1];
+
   const channel = client.channels.cache.get("872214986452242462");
   if (channel) {
-    // const jokeOfTheWeek = await fetch("https://api.chucknorris.io/jokes/random")
-    //   .then((data) => {
-    //     return data.json();
-    //   })
-    //   .then((json) => {
-    //     return json.value;
-    //   });
-
     await channel.send({
       content: `Distribution ready yo <@392435662420443167>!
+**Dist ID**: \`${lastDistribution.id}\`
 **Chuck Norris joke of the week**: has been retired lol
 `,
       files: [
