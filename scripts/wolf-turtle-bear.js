@@ -2,7 +2,7 @@ const fs = require("fs");
 const stringify = require("json-stable-stringify");
 
 const db = require("better-sqlite3")(
-  "cache/sourcecred/discord/discordMirror-453243919774253079.db"
+  "cache/sourcecred/discord/discordMirror-621759717756370964.db"
 );
 
 const aggregate = db
