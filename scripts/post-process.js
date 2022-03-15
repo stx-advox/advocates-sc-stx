@@ -17,6 +17,10 @@ process.env.ATTRIBUTIONS.split("\n").forEach((item) => {
   };
 });
 
+const nameModify = {
+  "the-advisor-btc": "the_advisor-btc",
+};
+
 const main = async () => {
   const ledgerResult = await ledgerManager.reloadLedger();
   if (ledgerResult.error) {
@@ -68,6 +72,8 @@ const main = async () => {
     return dist;
   });
   csv = csv.map((item) => [item[0], Math.floor(item[1] / 1e12) / 1e6]);
+
+  csv = csv.map((item) => [nameModify[item[0]] || item[0], item[1]]);
 
   csv = csv.join("\n");
   fs.writeFileSync(path.resolve("./distribution.csv"), csv);
