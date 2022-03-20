@@ -32,6 +32,7 @@ jobs:
       - name: Load Data and Compute Cred 🧮
         run: |
           yarn load
+          mkdir -p output/contributions/sourcecred/discord
           yarn sourcecred contributions
           yarn sourcecred credequate
           node scripts/wolf-turtle-bear.js
