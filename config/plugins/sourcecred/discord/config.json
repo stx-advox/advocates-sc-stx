@@ -33,6 +33,7 @@
     }
   },
   {
+    "beginningDate": "2021/8/4",
     "channelWeightConfig": {
       "defaultWeight": 0,
       "weights": {

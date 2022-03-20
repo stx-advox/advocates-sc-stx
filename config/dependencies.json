@@ -13,8 +13,12 @@
         "name": "sourcecred-btc",
         "periods": [
             {
-                "startTime": "2021-05-16T01:32:46.411Z",
+                "startTime": "2021-05-16",
                 "weight": 0.05
+            },
+            {
+                "startTime": "2022-03-16",
+                "weight": 0
             }
         ]
     },
