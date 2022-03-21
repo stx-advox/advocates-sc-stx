@@ -46,7 +46,6 @@ jobs:
           NODE_OPTIONS: "--max-old-space-size=8192"
         run: |
           yarn sourcecred site
-          yarn sourcecred analysis
           rm -rf ./site/{output,data,config,sourcecred.json}
           cp -r ./{output,data,config,sourcecred.json,package.json} ./site/
 
