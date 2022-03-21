@@ -23,7 +23,7 @@ jobs:
         uses: actions/cache@v2.1.7
         with:
           path: "**/cache"
-          key: SC-${{ runner.os }}-V2-${{ hashFiles('**/config.json', '**/sourcecred.json', '**/yarn.lock') }}
+          key: SC-${{ runner.os }}-V3-${{ hashFiles('**/config.json', '**/sourcecred.json', '**/yarn.lock') }}
 
       - name: Install Packages 🔧
         run: |
