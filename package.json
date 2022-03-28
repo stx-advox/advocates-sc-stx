@@ -24,7 +24,7 @@
     "compile": "dotenv -- sourcecred go --no-load"
   },
   "devDependencies": {
-    "dotenv-cli": "^5.0.0",
+    "dotenv-cli": "^5.1.0",
     "rimraf": "^3.0.2"
   }
 }
