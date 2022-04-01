@@ -19,6 +19,7 @@ process.env.ATTRIBUTIONS.split("\n").forEach((item) => {
 
 const nameModify = {
   "the-advisor-btc": "the_advisor-btc",
+  "nft-huntsman-btc": "nft_huntsman-btc",
 };
 
 const main = async () => {
