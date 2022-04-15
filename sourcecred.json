@@ -1,0 +1,271 @@
+{
+  "bundledPlugins": ["sourcecred/discord"],
+  "credEquatePlugins": [
+    {
+      "id": "sourcecred/discord",
+      "configsByTarget": {
+        "621759717756370964": [
+          {
+            "memo": "Stacks Main Server Initial Config",
+            "startDate": "12/27/2020",
+            "weights": [
+              {
+                "key": "emoji",
+                "default": 1,
+                "subkeys": [
+                  {
+                    "subkey": "1️⃣",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "2️⃣",
+                    "weight": 2
+                  },
+                  {
+                    "subkey": "3️⃣",
+                    "weight": 3
+                  },
+                  {
+                    "subkey": "🐢",
+                    "weight": 2
+                  },
+                  {
+                    "subkey": "🐺",
+                    "weight": 2
+                  },
+                  {
+                    "subkey": "🧸",
+                    "weight": 2
+                  }
+                ]
+              },
+              {
+                "key": "role",
+                "default": 0,
+                "subkeys": [
+                  {
+                    "subkey": "872124401129246822",
+                    "memo": "advocate",
+                    "weight": 1
+                  }
+                ]
+              },
+              {
+                "key": "channel",
+                "default": 0,
+                "subkeys": [
+                  {
+                    "subkey": "872645232112582707",
+                    "memo": "meeting-notes",
+                    "weight": 8
+                  },
+                  {
+                    "subkey": "872534429204086824",
+                    "memo": "introductions",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "872533875065233418",
+                    "memo": "open-discussion",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "872539437408583750",
+                    "memo": "🐺🐢🧸-discussion",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "884563687908712479",
+                    "memo": "design-submissions",
+                    "weight": 3
+                  },
+                  {
+                    "subkey": "892508974052696124",
+                    "memo": "community-rep",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "872124967083450378",
+                    "memo": "cred-discussion",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "872214986452242462",
+                    "memo": "grain-discussion",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "872562193441382400",
+                    "memo": "help",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "874807434571567174",
+                    "memo": "meeting-chat",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "872124900431769620",
+                    "memo": "props",
+                    "weight": 15
+                  },
+                  {
+                    "subkey": "872124843225653278",
+                    "memo": "did-a-thing",
+                    "weight": 12
+                  }
+                ]
+              },
+              {
+                "key": "category",
+                "default": 1,
+                "subkeys": []
+              }
+            ],
+            "operators": [
+              {
+                "key": "reactionsAcrossParticipants",
+                "operator": "ADD"
+              },
+              {
+                "key": "reactionsOfSingleParticipant",
+                "operator": "ADD"
+              }
+            ],
+            "shares": [
+              {
+                "key": "author",
+                "default": 1,
+                "subkeys": [
+                  {
+                    "subkey": "872645232112582707",
+                    "memo": "meeting-notes",
+                    "weight": 0
+                  },
+                  {
+                    "subkey": "872124900431769620",
+                    "memo": "props",
+                    "weight": 0
+                  }
+                ]
+              },
+              {
+                "key": "mention",
+                "default": 1,
+                "subkeys": []
+              }
+            ]
+          }
+        ],
+        "792908935774076938": [
+          {
+            "memo": "Stacks Advocates Alpha Server Initial Config",
+            "startDate": "12/27/2020",
+            "weights": [
+              {
+                "key": "emoji",
+                "default": 0,
+                "subkeys": [
+                  {
+                    "subkey": "1️⃣",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "2️⃣",
+                    "weight": 2
+                  },
+                  {
+                    "subkey": "3️⃣",
+                    "weight": 3
+                  },
+                  {
+                    "subkey": "🐢",
+                    "weight": 2
+                  },
+                  {
+                    "subkey": "🐺",
+                    "weight": 2
+                  },
+                  {
+                    "subkey": "🧸",
+                    "weight": 2
+                  }
+                ]
+              },
+              {
+                "key": "role",
+                "default": 0,
+                "subkeys": [
+                  {
+                    "subkey": "838942966692839435",
+                    "memo": "advocate",
+                    "weight": 1
+                  },
+                  {
+                    "subkey": "829805387955437568",
+                    "memo": "server-admin",
+                    "weight": 1
+                  }
+                ]
+              },
+              {
+                "key": "channel",
+                "default": 1,
+                "subkeys": [
+                  {
+                    "subkey": "846398942119329862",
+                    "memo": "testing-channel",
+                    "weight": 0
+                  },
+                  {
+                    "subkey": "838920332894666752",
+                    "memo": "props",
+                    "weight": 15
+                  },
+                  {
+                    "subkey": "838921642838196256",
+                    "memo": "did-a-thing",
+                    "weight": 12
+                  }
+                ]
+              },
+              {
+                "key": "category",
+                "default": 1,
+                "subkeys": []
+              }
+            ],
+            "operators": [
+              {
+                "key": "reactionsAcrossParticipants",
+                "operator": "ADD"
+              },
+              {
+                "key": "reactionsOfSingleParticipant",
+                "operator": "ADD"
+              }
+            ],
+            "shares": [
+              {
+                "key": "author",
+                "default": 1,
+                "subkeys": [
+                  {
+                    "subkey": "838920332894666752",
+                    "memo": "props",
+                    "weight": 0.1
+                  }
+                ]
+              },
+              {
+                "key": "mention",
+                "default": 1,
+                "subkeys": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

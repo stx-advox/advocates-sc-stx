@@ -1,0 +1,30 @@
+{
+  "name": "template-instance",
+  "version": "0.1.0",
+  "description": "A template repo for creating a SourceCred instance",
+  "repository": "git@github.com:sourcecred/template-instance.git",
+  "author": "SourceCred Team <contact@sourcecred.io>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "cross-fetch": "^3.1.5",
+    "date-fns": "^2.28.0",
+    "discord-api-types": "^0.31.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "sourcecred": "^0.11.1"
+  },
+  "scripts": {
+    "clean": "rimraf cache site",
+    "clean-all": "yarn clean && rimraf output",
+    "load": "dotenv sourcecred load",
+    "start": "dotenv -- sourcecred go --no-load && sourcecred serve",
+    "grain": "sourcecred grain",
+    "compile": "dotenv -- sourcecred go --no-load"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^5.1.0",
+    "rimraf": "^3.0.2"
+  }
+}
